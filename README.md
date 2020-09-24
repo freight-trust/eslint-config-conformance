@@ -1,6 +1,8 @@
 # eslint-conformance
 
-> npm eslint-conformance
+> npm --save-dev eslint-conformance
+
+[npm registry](https://www.npmjs.com/package/eslint-conformance)
 
 ## Overview
 
@@ -23,7 +25,6 @@ Tip: You can alternatively put this object in your package.json under the proper
 You can add two scripts to your package.json to lint and/or fix:
 
 ```json
-
 "scripts": {
   "lint": "eslint .",
   "lint:fix": "eslint . --fix"
