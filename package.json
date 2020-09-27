@@ -34,7 +34,8 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "dogfoox": "npx eslint .eslintrc.js"
+    "dogfood": "npx eslint .eslintrc.js",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "keywords": [
     "javascript",
