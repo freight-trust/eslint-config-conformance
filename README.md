@@ -8,7 +8,10 @@
 
 ## Install
 
-`npx install-peerdeps --dev --exact eslint-conformance`
+> Recommended Install Method 
+```bash
+$ npx install-peerdeps --dev eslint-conformance
+```
 
 Install will taken place in '`devDependencies`'.
 
