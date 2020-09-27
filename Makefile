@@ -1,8 +1,13 @@
-all: env bom
 
-env:
-		@echo export ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
+define npm_script_targets
+TARGETS := $(shell node -e 'for (var k in require("./package.json").scripts) {console.log(k.replace(/:/g, "-"));}')
+$$(TARGETS):
+	npm run $(subst -,:,$(MAKECMDGOALS))
 
-bom: SHELL:=/bin/bash   # INVENTORY FILES INTO BILL OF MATERIAL LIST
-bom:
-		@bash -c 'ls -R > BOM.txt'
+.PHONY: $$(TARGETS)
+endef
+
+$(eval $(call npm_script_targets))
+
+
+
