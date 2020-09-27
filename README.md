@@ -1,6 +1,7 @@
-# eslint-conformance
+# eslint-config-conformance
 
-> @eslint-conformance
+
+> @eslint-config-conformance
 
 [npm registry](https://www.npmjs.com/package/eslint-conformance)
 
@@ -10,7 +11,7 @@
 
 > Recommended Install Method 
 ```bash
-$ npx install-peerdeps --dev eslint-conformance
+$ npx install-peerdeps --dev eslint-config-conformance
 ```
 
 Install will taken place in '`devDependencies`'.
