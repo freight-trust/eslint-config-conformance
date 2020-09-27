@@ -33,7 +33,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix",
+    "lint:fix": "eslint . --fix",
     "dogfood": "npx eslint .eslintrc.js",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },

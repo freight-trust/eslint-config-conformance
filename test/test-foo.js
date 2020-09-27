@@ -1,7 +1,5 @@
-"use strict";
-
 module.exports = {
   rules: {
-    "foobar/some-rule": "off",
+    'foobar/some-rule': 'off',
   },
 };
