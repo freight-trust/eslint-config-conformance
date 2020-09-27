@@ -16,5 +16,5 @@ branches:
     - trunk/release
 
 script:
-  - "npx install-peerdeps --dev --exact eslint-conformance"
+  - "yarn"
   - "yarn run lint"
