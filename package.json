@@ -1,5 +1,5 @@
 {
-  "name": "eslint-conformance",
+  "name": "eslint-config-conformance",
   "version": "1.1.0",
   "description": "Conformance Eslint and Prettier configuration ",
   "main": "index.js",
