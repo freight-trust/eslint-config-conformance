@@ -1,5 +1,6 @@
 # eslint-config-conformance
 
+[![Build Status](https://travis-ci.com/freight-trust/eslint-conformance.svg?branch=master)](https://travis-ci.com/freight-trust/eslint-conformance)
 
 > @eslint-config-conformance
 
@@ -7,11 +8,13 @@
 
 ## Overview
 
+> Note: you should always use -E for linters (--exact)
+
 ## Install
 
 > Recommended Install Method 
 ```bash
-$ npx install-peerdeps --dev eslint-config-conformance
+$ npx install-peerdeps --dev --exact eslint-config-conformance
 ```
 
 Install will taken place in '`devDependencies`'.
@@ -71,7 +74,7 @@ You can also manually add the `peerDependencies`, here is the dependencies as of
   "eslint-plugin-prettier": "^3.1.4",
   "eslint-plugin-react": "^7.20.6",
   "eslint-plugin-react-hooks": "^4.1.2",
-  "prettier": "^2.1.1"
+  "prettier": "2.1.1"
 }
 ```
 
