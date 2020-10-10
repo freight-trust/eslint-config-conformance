@@ -1,6 +1,9 @@
 # eslint-config-conformance
 
-[![Build Status](https://travis-ci.com/freight-trust/eslint-conformance.svg?branch=master)](https://travis-ci.com/freight-trust/eslint-conformance)
+[![Build Status](https://travis-ci.com/freight-trust/eslint-config-conformance.svg?branch=master)](https://travis-ci.com/freight-trust/eslint-config-conformance)
+
+
+<br>
 
 > @eslint-config-conformance
 
