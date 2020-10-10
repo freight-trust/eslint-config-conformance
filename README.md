@@ -47,13 +47,13 @@ Now you can manually lint your code by running npm run lint and fix all fixable 
 
 ### Create React App
 
-Run `$ npx install-peerdeps --dev eslint-conformance`
+Run `$ npx install-peerdeps --dev eslint-config-conformance`
 
 Replace "extends": "react-app" with "extends": "conformance"
 
 ### With Gatsby
 
-Run `$ npx install-peerdeps --dev eslint-conformance`
+Run `$ npx install-peerdeps --dev eslint-config-conformance`
 
 ## Alternative Install without `npx`
 
