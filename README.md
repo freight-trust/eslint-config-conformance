@@ -1,7 +1,6 @@
 # eslint-config-conformance
 
-[![Build Status](https://travis-ci.com/freight-trust/eslint-config-conformance.svg?branch=master)](https://travis-ci.com/freight-trust/eslint-config-conformance)
-
+![Node.js CI](https://github.com/freight-trust/eslint-config-conformance/workflows/Node.js%20CI/badge.svg)
 
 <br>
 
